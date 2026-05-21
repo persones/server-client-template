@@ -7,8 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: 'index.html', // Replace with your primary entry point file (e.g., index.html)
-        simulator: 'src/thermostat-simulator/index.html',
+        main: 'index.html',
       },
     }
   },
